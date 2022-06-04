@@ -1,5 +1,15 @@
 ### Hi there 👋
 
+> My name is Hector Miguel Rodriguez
+> I'm a 2nd year CS student at Havana University
+
+🤙 I'm also a gamer DUH! and an anime fan
+
+※ I'm very interested in the whole game development industry and working to become a profesional game developer ※
+
+🤔 I'm looking to collaborate with Gabe Newell. he is a truly inspiring person, for everything he's done to the gaming community he has my respect
+
+📫 How to reach me: You should't pervert! But if you insist, go for d0t42f4n@gmail.com
 <!--
 **vekt0R-HUB/vekt0R-HUB** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
