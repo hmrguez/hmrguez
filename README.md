@@ -11,7 +11,7 @@
 
 ※ I'm very interested in the whole game development industry and working to become a profesional game developer ※
 
-👯 I'm looking to collaborate with `Gabe Newell`. he is a truly inspiring person, for everything he's done to the gaming community he has my respect
+👯 I'm looking to collaborate with `Gabe Newell`. He is a truly inspiring person, for everything he's done to the gaming community he has my respect
 
 📫 How to reach me: You should't pervert! But if you insist, go for my email `d0t42f4n@gmail.com`
 
