@@ -13,7 +13,7 @@
 
 👯 I'm looking to collaborate with `Gabe Newell`. He is a truly inspiring person, for everything he's done to the gaming community he has my respect
 
-📫 How to reach me: You should't pervert! But if you insist, go for my email `d0t42f4n@gmail.com`
+📫 How to reach me: You shouldn't pervert! But if you insist, go for my email `d0t42f4n@gmail.com`
 
 🤔 I'm very intrigued with the functional programming paradigm and willing to accept any help on the subject, as well as any help concerning game development tips and tricks
 
