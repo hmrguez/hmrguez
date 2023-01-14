@@ -9,7 +9,7 @@ I'm a Computer Science student at University of Havana. My goal is to become an 
 
 ![Hector's GitHub stats](https://github-readme-stats.vercel.app/api?username=vekt0R-HUB&show_icons=true&theme=tokyonight)
 
-![Leetcode Stats](https://leetcode.com/zealot-algo)
+![Leetcode Stats](https://leetcard.jacoblin.cool/zealot-algo)
 
 ---
 ### 👨‍💻 Languages and frameworks
