@@ -7,7 +7,7 @@ I'm a Computer Science student at University of Havana. My goal is to become an 
 ---
 ### 📊 Stats
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=vekt0R-HUB&theme=merko&show_icons=true&hide_border=true)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=vekt0R-HUB&theme=vision-friendly-dark&show_icons=true&hide_border=true)
 
 ![Leetcode Stats](https://leetcard.jacoblin.cool/zealot-algo?border=0&theme=dark)
 
