@@ -2,7 +2,7 @@
 
 ---
 
-I'm a Computer Science student at University of Havana. My goal is to become an all-round programmer, focusing my skills wherever I can. I'm an enthusiast of pretty much every branch of Computer Science. I'm working alongside other students and professors at my school's AI research group. I'm a gamer myself and an indie game developer. Right now I'm currently learning Flask and Django for web development and SQL in general. I'm also working on a 2D RPG game. I'm fluent in Spanish and English, and get around in Russian.
+I'm a 3rd year Computer Science student at University of Havana. My goal is to become a Software Engineer but I'm open to suggestions. I'm an enthusiast of pretty much every Computer Science branch. My interests go from web and app development, to machine learning and competitive programming. Right now I'm learning ASP.NET framework for web development.  
 
 ---
 ### 📊 Github & Leetcode Stats
