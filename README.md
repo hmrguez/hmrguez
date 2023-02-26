@@ -22,10 +22,10 @@
 ### About me
 
  I'm a 3rd year CS student at **Havana University**.
- I'm a **Full Stack developer** with proficiency on the MEAN stack and the .NET framework using ASP.NET Core MVC and SQL Server, but also some experience on the Flask framework.
- I was a member of my school's AI Research Group were I learned about **Machine Learning**, sentiment analisis and image clasification using Keras.
- I have some knowledge about **game development** in Unity and **game design**.
- I'm currently learning about **Relational Databases** and **Containerization**.
+ I'm a `Full Stack developer` with proficiency on the MEAN stack and the .NET framework using ASP.NET Core MVC and SQL Server, but also some experience on the Flask framework.
+ I was a member of my school's AI Research Group were I learned about `Machine Learning`, sentiment analisis and image clasification using Keras.
+ I have some knowledge about `game development` in Unity and `game design`.
+ I'm currently learning about `Relational Databases` and `Containerization`.
 
 ---
 
