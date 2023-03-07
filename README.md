@@ -21,11 +21,13 @@
 
 ### About me
 
- I'm a 3rd year CS student at **Havana University**.
- I'm a `Full Stack developer` with proficiency on the MEAN stack and the .NET framework using ASP.NET Core MVC and SQL Server, but also some experience on the Flask framework.
- I was a member of my school's AI Research Group were I learned about `Machine Learning`, sentiment analisis and image clasification using Keras.
- I have some knowledge about `game development` in Unity and `game design`.
- I'm currently learning about `Relational Databases` and `Containerization`.
+🏫 I'm a 3rd year CS student at Havana University
+💻 I'm looking forward for a career as a Full-Stack Engineer
+🌱 I’m currently learning Angular, Node.js, MongoDB and Docker
+💬 Ask me about databases and algorithms
+👨‍💻 All of my projects are available at https://vekt0r-hub.github.io/Portfolio-Website/
+📫 How to reach me zealot.algo@gmail.com
+⚡ Fun fact I'm a serious gamer and will never say no a DOTA 2 1v1
 
 ---
 
@@ -50,14 +52,4 @@
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=vekt0R-HUB&theme=nord&show_icons=true&hide_border=true&bg_color=101010)
 
 ![Leetcode Stats](https://leetcard.jacoblin.cool/zealot-algo?border=0&theme=nord)
-
----
-
-### Personal information
-
-- I'm a serious gamer with experience in dozens of games specially the Strategy and MOBA genres with `DOTA 2` and `Age of Empires` leading the board, although my favorite game is `Ori and the Will of the Wisps`
-- I'm a fitness guy and I exercise everyday doing calisthenics
-- Whenever I'm bored I look up courses on the internet, look for interesting LeetCode problems or watch a movie
-- My passion is **programming**, I can get lost, with no hope of getting out, on my IDE whenever I'm working on a project I'm excited about
-- I'm a regular to fast typer, with a current record of 70 WPM on [10FastFingers](https://10fastfingers.com/typing-test/english)
 
