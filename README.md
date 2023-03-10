@@ -33,7 +33,7 @@
 
 📫 How to reach me **zealot.algo@gmail.com**
 
-⚡ Fun fact, I'm a serious gamer and will never say no a DOTA 2 1v1
+⚡ Fun fact, I'm a serious gamer, my favorite game is Ori and the Will of the Wisps and will never say no a DOTA 2 1v1
 
 ---
 
