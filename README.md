@@ -29,7 +29,7 @@
 
 💬 Ask me about **databases and algorithms**
 
-👨‍💻 All of my projects are available at [https://vekt0r-hub.github.io/Portfolio-Website/](my Portfolio)
+👨‍💻 All of my projects are available at my [Portfolio](https://vekt0r-hub.github.io/Portfolio-Website/)
 
 📫 You can reach me at: **zealot.algo@gmail.com**
 
