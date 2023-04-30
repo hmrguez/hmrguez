@@ -25,7 +25,7 @@
 
 💻 I'm looking forward for a career as a **Full-Stack Engineer**
 
-🌱 I’m currently learning **Angular, Node.js, MongoDB and Docker**
+🌱 I’m currently learning **Docker, Excel and Springboot**
 
 💬 Ask me about **databases and algorithms**
 
@@ -37,22 +37,53 @@
 
 ---
 
-### My Skills
+### 🎓 My Skills
 
 
-<p align="center">
-  <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,nodejs,express,py,flask,mongodb"/>
-    <br/>
-    <img src="https://skillicons.dev/icons?i=js,ts,html,css,bootstrap,angular"/>
-    <br/>
-    <img src="https://skillicons.dev/icons?i=git,github,idea,vscode"/>
-    <br/>
-    <img src="https://skillicons.dev/icons?i=tensorflow,unity"/>
-  </a>
-</p>
+<div class="main" style="
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 90%;
+    margin: 5px auto;
+    text-align: center;
+">
+  <div class="lang">
+    <h4>Languages</h4>
+    <img src="https://skillicons.dev/icons?i=js,ts,cs"/>
+    <img src="https://skillicons.dev/icons?i=c,java,py"/>
+  </div>
+  <div class="backend">
+    <h4>Backend</h4>
+    <img src="https://skillicons.dev/icons?i=dotnet,express,flask"/>
+    <img src="https://skillicons.dev/icons?i=mongodb,nodejs,mysql"/>
+  </div>
+  <div class="frontend">
+    <h4>Frontend</h4>
+    <img src="https://skillicons.dev/icons?i=angular,react,d3"/>
+    <img src="https://skillicons.dev/icons?i=css,html,bootstrap"/>
+  </div>
+  <div class="misc">
+    <h4>Tools & Extras</h4>
+    <img src="https://skillicons.dev/icons?i=git,github,idea"/>
+    <img src="https://skillicons.dev/icons?i=vite,unity,tensorflow"/>
+  </div>
+</div>
 
 ---
+
+### 🔮 My top projects
+
+| 💻 **Technology** | 🚀 **Projects** |
+| - | - |
+| [![.NET](https://img.shields.io/static/v1?label=&message=.NET&color=purple&logo=dotnet&logoColor=white)](https://www.python.org/) | [![moogle](https://img.shields.io/static/v1?label=&message=moogle&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/vekt0R-HUB/Moogle) [![bugtracker](https://img.shields.io/static/v1?label=&message=bug-tracker&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/vekt0R-HUB/Khepri-Bug-Tracker) [![moogle](https://img.shields.io/static/v1?label=&message=social-media-clone&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/vekt0R-HUB/Project-Tenjin) 
+| [![Express](https://img.shields.io/static/v1?label=&message=Express&color=gray&logo=Express&logoColor=white)](https://www.python.org/) | [![moogle-ts](https://img.shields.io/static/v1?label=&message=moogle-ts&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/vekt0R-HUB/Moogle-TS) 
+| [![Tensorflow](https://img.shields.io/static/v1?label=&message=Tensorflow&color=orange&logo=Tensorflow&logoColor=white)](https://www.python.org/) | [![project-hermes](https://img.shields.io/static/v1?label=&message=project-hermes&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/vekt0R-HUB/Project-Hermes) 
+| [![Python](https://img.shields.io/static/v1?label=&message=Python&color=3776AB&logo=Python&logoColor=white)](https://www.python.org/) | [![project-hermes](https://img.shields.io/static/v1?label=&message=matcom-dashboard&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/vekt0R-HUB/dashboard)
+| [![C](https://img.shields.io/static/v1?label=&message=C-language&color=blue&logo=C&logoColor=white)](https://www.python.org/) | [![project-hermes](https://img.shields.io/static/v1?label=&message=unix-shell&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/vekt0R-HUB/nautilus)
+
+---
+
 ### 📊 Github & Leetcode Stats
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=vekt0R-HUB&theme=dark&show_icons=true&hide_border=true&bg_color=101010)
