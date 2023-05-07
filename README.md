@@ -53,6 +53,12 @@
     <img src="https://skillicons.dev/icons?i=js,ts,cs"/>
     <img src="https://skillicons.dev/icons?i=c,java,py"/>
   </div>
+  <div class="devops">
+    <h4>DevOps (Learning)</h4>
+    <img src="https://skillicons.dev/icons?i=aws,azure,ansible"/>
+    <img src="https://skillicons.dev/icons?i=docker,kubernetes,jenkins"/>
+    <img src="https://skillicons.dev/icons?i=bash,powershell,prometheus"/>
+  </div>
   <div class="backend">
     <h4>Backend</h4>
     <img src="https://skillicons.dev/icons?i=dotnet,express,flask"/>
