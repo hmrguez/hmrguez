@@ -21,7 +21,7 @@
 
 ### About me
 
-🏫 I'm a 3rd year **CS student** at Havana University
+🏫 I'm a 3rd year **CS student** at University of Havana
 
 💻 I'm looking forward for a career as a **Full-Stack Engineer**
 
@@ -29,9 +29,9 @@
 
 💬 Ask me about **databases and algorithms**
 
-👨‍💻 All of my projects are available at https://vekt0r-hub.github.io/Portfolio-Website/
+👨‍💻 All of my projects are available at my [Portfolio](https://vekt0r-hub.github.io/Portfolio-Website/)
 
-📫 How to reach me **zealot.algo@gmail.com**
+📫 You can reach me at: **zealot.algo@gmail.com**
 
 ⚡ Fun fact, I'm a serious gamer, my favorite game is Ori and the Will of the Wisps and will never say no a DOTA 2 1v1
 
