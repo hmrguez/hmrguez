@@ -39,7 +39,35 @@
 
 ### 🎓 My Skills
 
-<div class="main" display="grid" grid-template-columns="1fr 1fr" style="
+<table>
+  <tr>
+    <div class="Lang">
+      <h4>Languages</h4>
+      <img src="https://skillicons.dev/icons?i=js,ts,cs"/>
+      <img src="https://skillicons.dev/icons?i=c,java,py"/>
+    </div>
+    <div class="backend">
+      <h4>Backend</h4>
+      <img src="https://skillicons.dev/icons?i=dotnet,express,flask"/>
+      <img src="https://skillicons.dev/icons?i=mongodb,nodejs,mysql"/>
+    </div>
+  </tr>
+  <tr>
+    <div class="frontend">
+      <h4>Frontend</h4>
+      <img src="https://skillicons.dev/icons?i=angular,react,d3"/>
+      <img src="https://skillicons.dev/icons?i=css,html,bootstrap"/>
+    </div>
+    <div class="misc">
+      <h4>Tools & Extras</h4>
+      <img src="https://skillicons.dev/icons?i=git,github,idea"/>
+      <img src="https://skillicons.dev/icons?i=vite,unity,tensorflow"/>
+    </div>
+  </tr>
+</table>
+
+
+<!-- <div class="main" display="grid" grid-template-columns="1fr 1fr" style="
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -73,7 +101,7 @@
     <img src="https://skillicons.dev/icons?i=git,github,idea"/>
     <img src="https://skillicons.dev/icons?i=vite,unity,tensorflow"/>
   </div>
-</div>
+</div> -->
 
 ---
 
