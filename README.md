@@ -25,7 +25,7 @@
 
 💻 I'm looking forward for a career as a **DevOps Engineer**
 
-🌱 I’m currently learning **Grafana, Prometheus and Scrum**
+🌱 I’m currently learning **AWS and Azure**
 
 💬 Ask me about **databases and algorithms**
 
