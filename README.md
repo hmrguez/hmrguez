@@ -35,7 +35,7 @@
 
 💬 Ask me about **databases and algorithms**
 
-👨‍💻 All of my projects are available in my **[Portfolio](https://hmrguez.github.io/Portfolio/)**
+👨‍💻 All of my projects are available in my **[Portfolio](https://hmrguez2.github.io/Portfolio/)**
 
 📫 You can reach me at: **[zealot.algo@gmail.com](**zealot.algo@gmail.com**)**
 
