@@ -29,13 +29,11 @@
 
 🏫 I'm a 3rd year **CS student** at University of Havana
 
-💻 I'm looking forward for a career as a **DevOps Engineer**
+💻 I'm looking forward for a career as a **.NET Solutions Architect**
 
-🌱 I’m currently learning **AWS and Azure**
+🌱 I’m currently learning about **Modular Monoliths and Microservices**
 
-💬 Ask me about **databases and algorithms**
-
-👨‍💻 All of my projects are available in my **[Portfolio](https://hmrguez2.github.io/Portfolio/)**
+💬 Ask me about **engineering and cool ideas**
 
 📫 You can reach me at: **[zealot.algo@gmail.com](**zealot.algo@gmail.com**)**
 
@@ -95,7 +93,7 @@
 | [![Python](https://img.shields.io/static/v1?label=&message=Python&color=3776AB&logo=Python&logoColor=white)](https://www.python.org/) | [![project-hermes](https://img.shields.io/static/v1?label=&message=matcom-dashboard&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/hmrguez/dashboard)
 | [![C](https://img.shields.io/static/v1?label=&message=C-language&color=blue&logo=C&logoColor=white)](https://www.python.org/) | [![project-hermes](https://img.shields.io/static/v1?label=&message=unix-shell&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/hmrguez/nautilus)
 | [![Java](https://img.shields.io/static/v1?label=&message=Java&color=red&logo=java&logoColor=white)](https://www.python.org/) | [![project-hermes](https://img.shields.io/static/v1?label=&message=java-kafka&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/hmrguez/Project-Anubis)
-| [![Go](https://img.shields.io/static/v1?label=&message=Go&color=cyan&logo=Go&logoColor=white)](https://www.python.org/) | [![project-hermes](https://img.shields.io/static/v1?label=&message=moogle-go&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/hmrguez/Moogle-Go)
+| [![Go](https://img.shields.io/static/v1?label=&message=Go&color=cyan&logo=Go&logoColor=white)](https://www.python.org/) | [![project-hermes](https://img.shields.io/static/v1?label=&message=moogle-go&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/hmrguez/Moogle-Go) [![SkillMatch](https://img.shields.io/static/v1?label=&message=linkedin-clone&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/hmrguez/Skill-Match)
 
 ---
 
