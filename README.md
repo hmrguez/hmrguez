@@ -1,43 +1,18 @@
-# 🌟 Hi I'm Hector Rodriguez
+# Hi there!! ✌️
 
----
+### About me
 
-### Trophies
+I'm Hector. I'm a senior year **CS student** and I'm training to become a **.NET Solutions Architect** and an **MLOps Engineer**. Both careers sound fantastic to me!!!. I'm a proud Jetbrains user and a serious gamer. My favorite game is **Ori and the Will of the Wisps** and I'm a hardcore **Dota 2** player. On my spare time I like to work on random projects where I can hone my skills.
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=hmrguez" alt="hmrguez" /></a> </p>
-
----
-
-### My Links
-
-<p align="center">
+**Contact me on**:
+<p align="start">
   <a href="https://twitter.com/MachineZealot">
     <img src="https://skillicons.dev/icons?i=twitter" />
   </a>
   <a href="https://www.linkedin.com/in/hmrguez">
     <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
-  <a href="https://github.com/hmrguez">
-    <img src="https://skillicons.dev/icons?i=github" />
-  </a>
 </p>
-
-
----
-
-### About me
-
-🏫 I'm a 3rd year **CS student** at University of Havana
-
-💻 I'm looking forward for a career as a **.NET Solutions Architect**
-
-🌱 I’m currently learning about **Modular Monoliths and Microservices**
-
-💬 Ask me about **engineering and cool ideas**
-
-📫 You can reach me at: **[zealot.algo@gmail.com](**zealot.algo@gmail.com**)**
-
-⚡ Fun fact, I'm a serious gamer, my favorite game is Ori and the Will of the Wisps and will never say no a DOTA 2 1v1
 
 ---
 
@@ -53,31 +28,31 @@
 ">
   <div style="grid-column: 1/-1" class="devops">
     <h4>DevOps </h4>
-    <img src="https://skillicons.dev/icons?i=aws,azure,ansible"/>
-    <img src="https://skillicons.dev/icons?i=docker,kubernetes,jenkins"/>
-    <img src="https://skillicons.dev/icons?i=bash,powershell,prometheus"/>
+    <img src="https://skillicons.dev/icons?i=aws,azure"/>
+    <img src="https://skillicons.dev/icons?i=docker,kubernetes"/>
+    <img src="https://skillicons.dev/icons?i=bash,powershell"/>
   </div>
   <div class="lang">
     <h4>Languages</h4>
     <img src="https://skillicons.dev/icons?i=js,ts,cs"/>
-    <img src="https://skillicons.dev/icons?i=c,java,py"/>
-    <img src="https://skillicons.dev/icons?i=go,haskell"/>
+    <img src="https://skillicons.dev/icons?i=py,go"/>
   </div>
   <div class="backend">
     <h4>Backend</h4>
-    <img src="https://skillicons.dev/icons?i=dotnet,express,flask"/>
-    <img src="https://skillicons.dev/icons?i=mongodb,nodejs,mysql"/>
+    <img src="https://skillicons.dev/icons?i=dotnet,fastapi"/>
+    <img src="https://skillicons.dev/icons?i=mongodb,postgresql,bun"/>
     <img src="https://skillicons.dev/icons?i=kafka,postman"/>
   </div>
   <div class="frontend">
     <h4>Frontend</h4>
-    <img src="https://skillicons.dev/icons?i=angular,react,d3"/>
+    <img src="https://skillicons.dev/icons?i=angular,react"/>
     <img src="https://skillicons.dev/icons?i=css,html,bootstrap"/>
+    <img src="https://skillicons.dev/icons?i=graphql,vite"/>
   </div>
   <div class="misc">
     <h4>Tools & Extras</h4>
-    <img src="https://skillicons.dev/icons?i=git,github,idea"/>
-    <img src="https://skillicons.dev/icons?i=vite,unity,tensorflow"/>
+    <img src="https://skillicons.dev/icons?i=git,github"/>
+    <img src="https://skillicons.dev/icons?i=idea,rider,pycharm"/>
   </div>
 </div>
 
