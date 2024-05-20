@@ -8,6 +8,7 @@ Flink**.
 - 🌱 I’m currently pursuing my **Bachelor's degree in CS at Havana University**
 - 💡 I'm interested in all things data: **Big Data, Cloud, Data Engineering and Data Science**
 - 🔅 I'm also interested in general software engineering topics: **Software Architecture, DevOps, CI/CD, etc.**
+- 🖥️ Proud **JetBrains** user
 - 💬 Talk to me about Dota 2, greek mythology, anime and anything tech related
 
 ---
@@ -43,13 +44,15 @@ systems. It contains architecture diagrams and a lot of documentation.
 
 A **Spring Boot** API made for the management of a mock vet clinic, including managing pets and appointments. It was
 created
-for me to start testing **Java** and **Spring Boot**.
+for me to try out **Java**, **Spring Boot** and **Kafka**.
 
 ### [Skillmatch](https://github.com/hmrguez/Skill-Match)
 
 <img src="https://skillicons.dev/icons?i=golang,angular,mongodb" alt="icons" />
 
 A LinkedIn copycat app made with **Go** and **Angular**. This was one of my longest projects.
+
+---
 
 ## GitHub Stats
 
