@@ -1,85 +1,71 @@
-# Hi there!! ✌️
+## Hi there 👋 I'm Hector Rodriguez,
 
-### About me
+A Software Engineer moving to a career as a Cloud Architect specialized in Big Data Solutions. I have a strong
+foundation in Big Data technologies and Cloud platforms. I love data engineering and architecting solutions on AWS and
+Azure. Currently, I'm working on my thesis work about **real-time data processing** using **Apache Kafka** and **Apache
+Flink**.
 
-I'm Hector. I'm a senior year **CS student** and I'm training to become a **.NET Solutions Architect** and an **MLOps Engineer**. Both careers sound fantastic to me!!!. I'm a proud Jetbrains user and a serious gamer. My favorite game is **Ori and the Will of the Wisps** and I'm a hardcore **Dota 2** player. On my spare time I like to work on random projects where I can hone my skills.
-
-**Contact me on**:
-<p align="start">
-  <a href="https://twitter.com/MachineZealot">
-    <img src="https://skillicons.dev/icons?i=twitter" />
-  </a>
-  <a href="https://www.linkedin.com/in/hmrguez">
-    <img src="https://skillicons.dev/icons?i=linkedin" />
-  </a>
-</p>
+- 🌱 I’m currently pursuing my **Bachelor's degree in CS at Havana University**
+- 💡 I'm interested in all things data: **Big Data, Cloud, Data Engineering and Data Science**
+- 🔅 I'm also interested in general software engineering topics: **Software Architecture, DevOps, CI/CD, etc.**
+- 💬 Talk to me about Dota 2, greek mythology, anime and anything tech related
 
 ---
 
-### 🎓 My Skills
+## My Top Projects
 
-<div class="main" display="grid" grid-template-columns="1fr 1fr" style="
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    width: 90%;
-    margin: 5px auto;
-    text-align: center;
-">
-  <div style="grid-column: 1/-1" class="devops">
-    <h4>DevOps </h4>
-    <img src="https://skillicons.dev/icons?i=aws,azure"/>
-    <img src="https://skillicons.dev/icons?i=docker,kubernetes"/>
-    <img src="https://skillicons.dev/icons?i=bash,powershell"/>
-  </div>
-  <div class="lang">
-    <h4>Languages</h4>
-    <img src="https://skillicons.dev/icons?i=js,ts,cs"/>
-    <img src="https://skillicons.dev/icons?i=py,go"/>
-  </div>
-  <div class="backend">
-    <h4>Backend</h4>
-    <img src="https://skillicons.dev/icons?i=dotnet,fastapi"/>
-    <img src="https://skillicons.dev/icons?i=mongodb,postgresql,bun"/>
-    <img src="https://skillicons.dev/icons?i=kafka,postman"/>
-  </div>
-  <div class="frontend">
-    <h4>Frontend</h4>
-    <img src="https://skillicons.dev/icons?i=angular,react"/>
-    <img src="https://skillicons.dev/icons?i=css,html,bootstrap"/>
-    <img src="https://skillicons.dev/icons?i=graphql,vite"/>
-  </div>
-  <div class="misc">
-    <h4>Tools & Extras</h4>
-    <img src="https://skillicons.dev/icons?i=git,github"/>
-    <img src="https://skillicons.dev/icons?i=idea,rider,pycharm"/>
-  </div>
-</div>
+### [Hermes](https://github.com/hmrguez/Hermes)
 
----
+<img src="https://skillicons.dev/icons?i=docker,py,kafka" alt="icons" />
+<img src="https://www.vectorlogo.zone/logos/apache_spark/apache_spark-icon.svg" alt="java" width="45" height="45"/> 
+<img src="flink_squirrel_1000.png" width="47" alt="flink">
 
-### 🔮 My top projects
+A real-time data ingestion, processing and analysis system that uses **Apache Kafka, Spark and Flink** in a distributed
+environment. It's my thesis work for my CS diploma, and I'm currently working on it.
 
-| 💻 **Technology** | 🚀 **Projects** |
-| - | - |
-| [![.NET](https://img.shields.io/static/v1?label=&message=.NET&color=purple&logo=dotnet&logoColor=white)](https://www.python.org/) | [![moogle](https://img.shields.io/static/v1?label=&message=moogle&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/hmrguez/Moogle) [![bugtracker](https://img.shields.io/static/v1?label=&message=bug-tracker&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/hmrguez/Khepri-Bug-Tracker) [![tenjin](https://img.shields.io/static/v1?label=&message=social-media-clone&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/hmrguez/Project-Tenjin) [![plutus](https://img.shields.io/static/v1?label=&message=CI/CD-ASP.NET&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/hmrguez/Project-Plutus) 
-| [![Express](https://img.shields.io/static/v1?label=&message=Express&color=gray&logo=Express&logoColor=white)](https://www.python.org/) | [![moogle-ts](https://img.shields.io/static/v1?label=&message=moogle-ts&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/hmrguez/Moogle-TS) 
-| [![Tensorflow](https://img.shields.io/static/v1?label=&message=Tensorflow&color=orange&logo=Tensorflow&logoColor=white)](https://www.python.org/) | [![project-hermes](https://img.shields.io/static/v1?label=&message=project-hermes&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/hmrguez/Project-Hermes) 
-| [![Python](https://img.shields.io/static/v1?label=&message=Python&color=3776AB&logo=Python&logoColor=white)](https://www.python.org/) | [![project-hermes](https://img.shields.io/static/v1?label=&message=matcom-dashboard&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/hmrguez/dashboard)
-| [![C](https://img.shields.io/static/v1?label=&message=C-language&color=blue&logo=C&logoColor=white)](https://www.python.org/) | [![project-hermes](https://img.shields.io/static/v1?label=&message=unix-shell&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/hmrguez/nautilus)
-| [![Java](https://img.shields.io/static/v1?label=&message=Java&color=red&logo=java&logoColor=white)](https://www.python.org/) | [![project-hermes](https://img.shields.io/static/v1?label=&message=java-kafka&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/hmrguez/Project-Anubis)
-| [![Go](https://img.shields.io/static/v1?label=&message=Go&color=cyan&logo=Go&logoColor=white)](https://www.python.org/) | [![project-hermes](https://img.shields.io/static/v1?label=&message=moogle-go&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/hmrguez/Moogle-Go) [![SkillMatch](https://img.shields.io/static/v1?label=&message=linkedin-clone&color=000605&logo=github&logoColor=FFFFFF&labelColor=000605)](https://github.com/hmrguez/Skill-Match)
+### [Havenly](https://github.com/hmrguez/Havenly)
+
+<img src="https://skillicons.dev/icons?i=dotnet,angular,graphql,postgresql,kubernetes,docker,terraform,aws" alt="icons" />
+
+An app that helps landlords manage their properties and their tenants. It's a full-stack application and my personal
+test suite for new tech ideas and has my personal architecture docs and best practices.
+
+### [Weaver](https://github.com/bromistas/Weaver)
+
+<img src="https://skillicons.dev/icons?i=go,docker,redis,rabbitmq" alt="icons" />
+
+A distributed scrapper. It's a project I made with my friends to learn Go and distributed
+systems. It contains architecture diagrams and a lot of documentation.
+
+### [Anubis](https://github.com/hmrguez/Project-Anubis)
+
+<img src="https://skillicons.dev/icons?i=java,spring,postgresql,kafka" alt="icons" />
+
+A **Spring Boot** API made for the management of a mock vet clinic, including managing pets and appointments. It was
+created
+for me to start testing **Java** and **Spring Boot**.
+
+### [Skillmatch](https://github.com/hmrguez/Skill-Match)
+
+<img src="https://skillicons.dev/icons?i=golang,angular,mongodb" alt="icons" />
+
+A LinkedIn copycat app made with **Go** and **Angular**. This was one of my longest projects.
+
+## GitHub Stats
+
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=hmrguez&show_icons=true&theme=dark)
 
 ---
 
-### 📊 Github & Leetcode Stats
+<p align="center">
+   <i>"The present is theirs; the future, for which I really worked, is mine."</i>
+   <br>
+   - Nikola Tesla
+   <br>
+<br>
+<a target="_blank" href="https://www.linkedin.com/in/hmrguez"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"></img></a>
+<a target="_blank" href="mailto:zealot.algo@gmail.com"><img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=Gmail&logoColor=white"></img></a>
+<a target="_blank" href="https://twitter.com/MachineZealot"><img src="https://img.shields.io/badge/-X-000000?style=for-the-badge&logo=X&logoColor=white"></img></a>
 
-
-<div style="display: flex; flex-direction: column; width: 90%; margin: 20px auto">
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=hmrguez&theme=dark&show_icons=true&hide_border=true&bg_color=101010)
-
-![Leetcode Stats](https://leetcard.jacoblin.cool/zealot-algo?border=0&theme=dark)
-</div>
-
-
+<br>
+</p>     
