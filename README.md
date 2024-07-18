@@ -9,7 +9,7 @@ Flink**.
 - 💡 I'm interested in all things data: **Big Data, Cloud, Data Engineering and Data Science**
 - 🔅 I'm also interested in general software engineering topics: **Software Architecture, DevOps, CI/CD, etc.**
 - 🖥️ Proud **JetBrains** user
-- 💬 Talk to me about Dota 2, greek mythology, anime and anything tech related
+- 💬 Talk to me about Dota 2, greek mythology, basketball, anime and anything tech related
 
 ---
 
