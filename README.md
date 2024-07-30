@@ -19,7 +19,7 @@ Flink**.
 
 <img src="https://skillicons.dev/icons?i=docker,py,kafka,java,scala" alt="icons" /> <img src="https://www.vectorlogo.zone/logos/apache_spark/apache_spark-icon.svg" alt="java" width="45" height="45"/> <img src="flink_squirrel_1000.png" width="47" alt="flink">
 
-A real-time data ingestion, processing and analysis system that uses **Apache Kafka, Spark and Flink** in a distributed
+A data ingestion, processing and analysis system that uses **Apache Kafka, Spark and Flink** in a distributed
 environment. It's my thesis work for my CS diploma, and I'm currently working on it.
 
 ### [Odin](https://github.com/hmrguez/Odin)
