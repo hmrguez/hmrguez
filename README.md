@@ -22,6 +22,21 @@ Flink**.
 A real-time data ingestion, processing and analysis system that uses **Apache Kafka, Spark and Flink** in a distributed
 environment. It's my thesis work for my CS diploma, and I'm currently working on it.
 
+### [Odin](https://github.com/hmrguez/Odin)
+
+<img src="https://skillicons.dev/icons?i=py,azure" alt="icons" /> <img src="snowflake-icon.svg" width="47" alt="flink">
+
+An etl pipeline for a mock ecommerce website that ingests data to an Azure SQL Database, then uses Azure Data Factory to
+transform and filter it and then uses a Snowflake database as a sink.
+
+
+### [Horus](https://github.com/hmrguez/Horus)
+
+<img src="https://skillicons.dev/icons?i=py,aws" alt="icons">
+
+A stream processing pipeline for a mock weather data API. It uses a combination of AWS Lambda, Kinesis streams, DynamoDB
+and AWS Glue to coordinate the efforts of stream ingestion, processing, transforming, cataloging and storing the data
+
 ### [Havenly](https://github.com/hmrguez/Havenly)
 
 <img src="https://skillicons.dev/icons?i=dotnet,angular,graphql,postgresql,kubernetes,docker,terraform,aws" alt="icons" />
