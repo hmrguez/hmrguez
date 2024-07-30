@@ -30,19 +30,20 @@ An etl pipeline for a mock ecommerce website that ingests data to an Azure SQL D
 transform and filter it and then uses a Snowflake database as a sink.
 
 
-### [Horus](https://github.com/hmrguez/Horus)
-
-<img src="https://skillicons.dev/icons?i=py,aws" alt="icons">
-
-A stream processing pipeline for a mock weather data API. It uses a combination of AWS Lambda, Kinesis streams, DynamoDB
-and AWS Glue to coordinate the efforts of stream ingestion, processing, transforming, cataloging and storing the data
-
 ### [Havenly](https://github.com/hmrguez/Havenly)
 
 <img src="https://skillicons.dev/icons?i=dotnet,angular,graphql,postgresql,kubernetes,docker,terraform,aws" alt="icons" />
 
 An app that helps landlords manage their properties and their tenants. It's a full-stack application and my personal
 test suite for new tech ideas and has my personal architecture docs and best practices.
+
+
+### [Horus](https://github.com/hmrguez/Horus)
+
+<img src="https://skillicons.dev/icons?i=py,aws" alt="icons">
+
+A stream processing pipeline for a mock weather data API. It uses a combination of AWS Lambda, Kinesis streams, DynamoDB
+and AWS Glue to coordinate the efforts of stream ingestion, processing, transforming, cataloging and storing the data
 
 ### [Weaver](https://github.com/bromistas/Weaver)
 
