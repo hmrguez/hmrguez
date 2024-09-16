@@ -15,9 +15,23 @@ Flink**.
 
 ## My Top Projects
 
+### [Qriosity](https://d2ace1smjt3x8k.cloudfront.net/)
+
+<img src="https://skillicons.dev/icons?i=py,go,ts,react,graphql,terraform,aws" alt="icons" />
+
+An AI powered learning app. Uses an OpenAI wrapper to give you custom questions and reviews and makes custom learning paths given custom prompts from the user. Go backend using AWS Lambdas as resolvers for an AWS AppSync GraphQL API, a DynamoDB store and a Cloudfront React frontend. 
+
+### [Havenly](https://github.com/hmrguez/Havenly)
+
+<img src="https://skillicons.dev/icons?i=dotnet,angular,graphql,postgresql,kubernetes,docker,terraform,aws" alt="icons" />
+
+An app that helps landlords manage their properties and their tenants. It's a full-stack application and my personal
+test suite for new tech ideas and has my personal architecture docs and best practices.
+
+
 ### [Hermes](https://github.com/hmrguez/Hermes)
 
-<img src="https://skillicons.dev/icons?i=docker,py,kafka,java,scala" alt="icons" /> <img src="https://www.vectorlogo.zone/logos/apache_spark/apache_spark-icon.svg" alt="java" width="45" height="45"/> <img src="flink_squirrel_1000.png" width="47" alt="flink">
+<img src="https://skillicons.dev/icons?i=docker,py,kafka,java,aws" alt="icons" /> <img src="https://www.vectorlogo.zone/logos/apache_spark/apache_spark-icon.svg" alt="java" width="45" height="45"/> <img src="flink_squirrel_1000.png" width="47" alt="flink">
 
 A data ingestion, processing and analysis system that uses **Apache Kafka, Spark and Flink** in a distributed
 environment. It's my thesis work for my CS diploma, and I'm currently working on it.
@@ -29,13 +43,6 @@ environment. It's my thesis work for my CS diploma, and I'm currently working on
 An etl pipeline for a mock ecommerce website that ingests data to an Azure SQL Database, then uses Azure Data Factory to
 transform and filter it and then uses a Snowflake database as a sink.
 
-
-### [Havenly](https://github.com/hmrguez/Havenly)
-
-<img src="https://skillicons.dev/icons?i=dotnet,angular,graphql,postgresql,kubernetes,docker,terraform,aws" alt="icons" />
-
-An app that helps landlords manage their properties and their tenants. It's a full-stack application and my personal
-test suite for new tech ideas and has my personal architecture docs and best practices.
 
 
 ### [Horus](https://github.com/hmrguez/Horus)
