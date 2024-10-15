@@ -1,9 +1,6 @@
 ## Hi there 👋 I'm Hector Rodriguez,
 
-A Software Engineer moving to a career as a Cloud Architect specialized in Big Data Solutions. I have a strong
-foundation in Big Data technologies and Cloud platforms. I love data engineering and architecting solutions on AWS and
-Azure. Currently, I'm working on my thesis work about **real-time data processing** using **Apache Kafka** and **Apache
-Flink**.
+A Software Engineer transitioning to a career as a Cloud Architect specialized in Big Data Solutions and Fintech. I'm passionate about data engineering and architecting solutions on AWS and Azure, with a particular focus on fintech applications.
 
 - 🌱 I’m currently pursuing my **Bachelor's degree in CS at Havana University**
 - 💡 I'm interested in all things data: **Big Data, Cloud, Data Engineering and Data Science**
@@ -19,7 +16,7 @@ Flink**.
 
 <img src="https://skillicons.dev/icons?i=py,go,ts,react,graphql,terraform,aws" alt="icons" />
 
-An AI powered learning app. Uses an OpenAI wrapper to give you custom questions and reviews and makes custom learning paths given custom prompts from the user. Go backend using AWS Lambdas as resolvers for an AWS AppSync GraphQL API, a DynamoDB store and a Cloudfront React frontend. 
+An AI powered learning app. Uses an OpenAI wrapper to give you custom questions and reviews and makes custom learning paths given custom prompts from the user. Go backend using AWS Lambdas as resolvers for an AWS AppSync GraphQL API, a DynamoDB store and a Cloudfront React frontend.
 
 ### [Havenly](https://github.com/hmrguez/Havenly)
 
@@ -34,7 +31,6 @@ test suite for new tech ideas and has my personal architecture docs and best pra
 
 An React Native app for tracking finances. It uses a Java Spring Boot backend for the API and a Postgres database.
 
-
 ### [Hermes](https://github.com/hmrguez/Hermes)
 
 <img src="https://skillicons.dev/icons?i=docker,py,kafka,java,aws" alt="icons" /> <img src="https://www.vectorlogo.zone/logos/apache_spark/apache_spark-icon.svg" alt="java" width="45" height="45"/> <img src="flink_squirrel_1000.png" width="47" alt="flink">
@@ -48,8 +44,6 @@ environment. It's my thesis work for my CS diploma, and I'm currently working on
 
 An etl pipeline for a mock ecommerce website that ingests data to an Azure SQL Database, then uses Azure Data Factory to
 transform and filter it and then uses a Snowflake database as a sink.
-
-
 
 ### [Horus](https://github.com/hmrguez/Horus)
 
@@ -98,4 +92,4 @@ A LinkedIn copycat app made with **Go** and **Angular**. This was one of my long
 <a target="_blank" href="https://twitter.com/MachineZealot"><img src="https://img.shields.io/badge/-X-000000?style=for-the-badge&logo=X&logoColor=white"></img></a>
 
 <br>
-</p>     
+</p>
