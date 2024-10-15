@@ -28,6 +28,12 @@ An AI powered learning app. Uses an OpenAI wrapper to give you custom questions 
 An app that helps landlords manage their properties and their tenants. It's a full-stack application and my personal
 test suite for new tech ideas and has my personal architecture docs and best practices.
 
+### [Fintrack](https://github.com/hmrguez/Fintrack)
+
+<img src="https://skillicons.dev/icons?i=react,java,spring,postgresql" alt="icons" />
+
+An React Native app for tracking finances. It uses a Java Spring Boot backend for the API and a Postgres database.
+
 
 ### [Hermes](https://github.com/hmrguez/Hermes)
 
