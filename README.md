@@ -5,7 +5,6 @@ foundation in Big Data technologies and Cloud platforms. I love data engineering
 Azure. Currently, I'm working on my thesis work about **real-time data processing** using **Apache Kafka** and **Apache
 Flink**.
 
-- 🌱 I’m currently pursuing my **Bachelor's degree in CS at Havana University**
 - 💡 I'm interested in all things data: **Big Data, Cloud, Data Engineering and Data Science**
 - 🔅 I'm also interested in general software engineering topics: **Software Architecture, DevOps, CI/CD, etc.**
 - 🖥️ Proud **JetBrains** user
