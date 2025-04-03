@@ -2,7 +2,6 @@
 
 A Software Engineer transitioning to a career as a Cloud Architect specialized in Big Data Solutions and Fintech. I'm passionate about data engineering and architecting solutions on AWS and Azure, with a particular focus on fintech applications.
 
-- 🌱 I’m currently pursuing my **Bachelor's degree in CS at Havana University**
 - 💡 I'm interested in all things data: **Big Data, Cloud, Data Engineering and Data Science**
 - 🔅 I'm also interested in general software engineering topics: **Software Architecture, DevOps, CI/CD, etc.**
 - 🖥️ Proud **JetBrains** user
@@ -12,7 +11,11 @@ A Software Engineer transitioning to a career as a Cloud Architect specialized i
 
 ## My Top Projects
 
-### [Qriosity](https://d2ace1smjt3x8k.cloudfront.net/)
+### [Apiand](https://github.com/hmrguez/Apiand)
+
+A CLI tool similar to Angular CLI but for .NET. Includes project scaffolding; service, endpoints, domain, etc, creation using generate commands, fully compatible with non-apiand-created projects; multiple architectures; etc. This is my current love child. I made the [cli](https://github.com/hmrguez/Apiand) using C# and [docs](https://github.com/hmrguez/apiand-docs) with Astro.
+
+### [Qriosity](https://github.com/hmrguez/Qriosity/)
 
 <img src="https://skillicons.dev/icons?i=py,go,ts,react,graphql,terraform,aws" alt="icons" />
 
