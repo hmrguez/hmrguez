@@ -55,11 +55,6 @@ A survey of modern data engineering with hands-on examples. Explores **Apache Ka
 
 ---
 
-## GitHub Stats
-
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=hmrguez&show_icons=true&theme=dark)
-
----
 
 <p align="center">
    <i>"The present is theirs; the future, for which I really worked, is mine."</i>
