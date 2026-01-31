@@ -1,9 +1,8 @@
 ## Hi there 👋 I'm Hector Rodriguez,
 
-A Software Engineer transitioning to a career as a Cloud Architect specialized in Big Data Solutions and Fintech. I'm passionate about data engineering and architecting solutions on AWS and Azure, with a particular focus on fintech applications.
+A Software Engineer wanting to build things people find amazing. I'm passionate about creating polished tools, exploring new concepts, and shipping products that solve real problems—whether it's a sleek flashcard app or ML-powered systems.
 
-- 💡 I'm interested in all things data: **Big Data, Cloud, Data Engineering and Data Science**
-- 🔅 I'm also interested in general software engineering topics: **Software Architecture, DevOps, CI/CD, etc.**
+- 🔅 I'm also interested in general software engineering topics: **Software Architecture, DevOps, CI/CD, ML/AI**
 - 🖥️ Proud **JetBrains** user
 - 💬 Talk to me about Dota 2, greek mythology, basketball, anime and anything tech related
 
@@ -11,70 +10,48 @@ A Software Engineer transitioning to a career as a Cloud Architect specialized i
 
 ## My Top Projects
 
+### [FinNet](https://github.com/hmrguez/FinNet)
+
+<img src="https://skillicons.dev/icons?i=py" alt="icons" />
+
+A novel graph-based multi-agent approach to Retrieval-Augmented Generation for financial advisory. My graduate thesis work exploring advanced RAG architectures beyond traditional vector search.
+
+
 ### [Apiand](https://github.com/hmrguez/Apiand)
 
-A CLI tool similar to Angular CLI but for .NET. Includes project scaffolding; service, endpoints, domain, etc, creation using generate commands, fully compatible with non-apiand-created projects; multiple architectures; etc. This is my current love child. I made the [cli](https://github.com/hmrguez/Apiand) using C# and [docs](https://github.com/hmrguez/apiand-docs) with Astro.
+<img src="https://skillicons.dev/icons?i=cs,dotnet,astro" alt="icons" />
 
-### [Qriosity](https://github.com/hmrguez/Qriosity/)
+A CLI scaffolding tool for .NET APIs, inspired by Angular CLI. Generate projects with clean architecture, add endpoints and services with simple commands, fully compatible with existing projects. Built the [CLI](https://github.com/hmrguez/Apiand) in C# and [docs](https://github.com/hmrguez/apiand-docs) with Astro.
 
-<img src="https://skillicons.dev/icons?i=py,go,ts,react,graphql,terraform,aws" alt="icons" />
+### [anki-cards](https://github.com/hmrguez/anki-cards)
 
-An AI powered learning app. Uses an OpenAI wrapper to give you custom questions and reviews and makes custom learning paths given custom prompts from the user. Go backend using AWS Lambdas as resolvers for an AWS AppSync GraphQL API, a DynamoDB store and a Cloudfront React frontend.
+<img src="https://skillicons.dev/icons?i=ts,react,rust,tauri" alt="icons" />
 
-### [Havenly](https://github.com/hmrguez/Havenly)
+A clean, lofi flashcard app built with Tauri. I didn't like how Anki looked on macOS, so I built my own in a weekend—and I'm actually using it daily. Simple, fast, beautiful.
 
-<img src="https://skillicons.dev/icons?i=dotnet,angular,graphql,postgresql,kubernetes,docker,terraform,aws" alt="icons" />
+### [Project-Nautilus](https://github.com/hmrguez/Project-Nautilus)
 
-An app that helps landlords manage their properties and their tenants. It's a full-stack application and my personal
-test suite for new tech ideas and has my personal architecture docs and best practices.
+<img src="https://skillicons.dev/icons?i=c,linux" alt="icons" />
 
-### [Fintrack](https://github.com/hmrguez/Fintrack)
+A Unix shell written in C from scratch. Implements process management, piping, I/O redirection, and signal handling. A deep dive into systems programming fundamentals.
 
-<img src="https://skillicons.dev/icons?i=react,java,spring,postgresql" alt="icons" />
+### [Project-Herme](https://github.com/hmrguez/Project-Herme)
 
-An React Native app for tracking finances. It uses a Java Spring Boot backend for the API and a Postgres database.
+<img src="https://skillicons.dev/icons?i=py,opencv" alt="icons" />
+
+A profanity and inappropriate content classifier for images and text, built before the GenAI era. Uses traditional ML and computer vision techniques—no API wrappers here, just actual model training and feature engineering.
+
+### [Qriosity](https://github.com/hmrguez/Qriosity)
+
+<img src="https://skillicons.dev/icons?i=py,go,ts,react,graphql,terraform,aws,dynamodb" alt="icons" />
+
+An AI-powered learning app that generates custom learning paths and adaptive questions using LLMs. Go backend with AWS Lambda resolvers for AppSync GraphQL API, DynamoDB storage, and a React frontend on CloudFront.
 
 ### [Hermes](https://github.com/hmrguez/Hermes)
 
-<img src="https://skillicons.dev/icons?i=docker,py,kafka,java,aws" alt="icons" /> <img src="https://www.vectorlogo.zone/logos/apache_spark/apache_spark-icon.svg" alt="java" width="45" height="45"/> <img src="flink_squirrel_1000.png" width="47" alt="flink">
+<img src="https://skillicons.dev/icons?i=docker,py,kafka,java,aws" alt="icons" /> <img src="https://www.vectorlogo.zone/logos/apache_spark/apache_spark-icon.svg" alt="spark" width="45" height="45"/> <img src="flink_squirrel_1000.png" width="47" alt="flink">
 
-A data ingestion, processing and analysis system that uses **Apache Kafka, Spark and Flink** in a distributed
-environment. It's my thesis work for my CS diploma, and I'm currently working on it.
-
-### [Odin](https://github.com/hmrguez/Odin)
-
-<img src="https://skillicons.dev/icons?i=py,azure" alt="icons" /> <img src="snowflake-icon.svg" width="47" alt="flink">
-
-An etl pipeline for a mock ecommerce website that ingests data to an Azure SQL Database, then uses Azure Data Factory to
-transform and filter it and then uses a Snowflake database as a sink.
-
-### [Horus](https://github.com/hmrguez/Horus)
-
-<img src="https://skillicons.dev/icons?i=py,aws" alt="icons">
-
-A stream processing pipeline for a mock weather data API. It uses a combination of AWS Lambda, Kinesis streams, DynamoDB
-and AWS Glue to coordinate the efforts of stream ingestion, processing, transforming, cataloging and storing the data
-
-### [Weaver](https://github.com/bromistas/Weaver)
-
-<img src="https://skillicons.dev/icons?i=go,docker,redis,rabbitmq" alt="icons" />
-
-A distributed scrapper. It's a project I made with my friends to learn Go and distributed
-systems. It contains architecture diagrams and a lot of documentation.
-
-### [Anubis](https://github.com/hmrguez/Project-Anubis)
-
-<img src="https://skillicons.dev/icons?i=java,spring,postgresql,kafka" alt="icons" />
-
-A **Spring Boot** API made for the management of a mock vet clinic, including managing pets and appointments. It was
-created
-for me to try out **Java**, **Spring Boot** and **Kafka**.
-
-### [Skillmatch](https://github.com/hmrguez/Skill-Match)
-
-<img src="https://skillicons.dev/icons?i=golang,angular,mongodb" alt="icons" />
-
-A LinkedIn copycat app made with **Go** and **Angular**. This was one of my longest projects.
+A survey of modern data engineering with hands-on examples. Explores **Apache Kafka, Spark, and Flink** for distributed data processing, streaming, and real-time analytics.
 
 ---
 
