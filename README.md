@@ -29,35 +29,6 @@ A novel graph-based multi-agent approach to Retrieval-Augmented Generation for f
 
 A CLI scaffolding tool for .NET APIs, inspired by Angular CLI. Generate projects with clean architecture, add endpoints and services with simple commands, fully compatible with existing projects. Built the [CLI](https://github.com/hmrguez/Apiand) in C# and [docs](https://github.com/hmrguez/apiand-docs) with Astro.
 
-### [anki-cards](https://github.com/hmrguez/anki-cards)
-
-<img src="https://skillicons.dev/icons?i=ts,react,rust,tauri" alt="icons" />
-
-A clean, lofi flashcard app built with Tauri. I didn't like how Anki looked on macOS, so I built my own in a weekend—and I'm actually using it daily. Simple, fast, beautiful.
-
-### [Project-Nautilus](https://github.com/hmrguez/Project-Nautilus)
-
-<img src="https://skillicons.dev/icons?i=c,linux" alt="icons" />
-
-A Unix shell written in C from scratch. Implements process management, piping, I/O redirection, and signal handling. A deep dive into systems programming fundamentals.
-
-### [Project-Herme](https://github.com/hmrguez/Project-Herme)
-
-<img src="https://skillicons.dev/icons?i=py,opencv" alt="icons" />
-
-A profanity and inappropriate content classifier for images and text, built before the GenAI era. Uses traditional ML and computer vision techniques—no API wrappers here, just actual model training and feature engineering.
-
-### [Qriosity](https://github.com/hmrguez/Qriosity)
-
-<img src="https://skillicons.dev/icons?i=py,go,ts,react,graphql,terraform,aws,dynamodb" alt="icons" />
-
-An AI-powered learning app that generates custom learning paths and adaptive questions using LLMs. Go backend with AWS Lambda resolvers for AppSync GraphQL API, DynamoDB storage, and a React frontend on CloudFront.
-
-### [Hermes](https://github.com/hmrguez/Hermes)
-
-<img src="https://skillicons.dev/icons?i=docker,py,kafka,java,aws" alt="icons" /> <img src="https://www.vectorlogo.zone/logos/apache_spark/apache_spark-icon.svg" alt="spark" width="45" height="45"/> <img src="flink_squirrel_1000.png" width="47" alt="flink">
-
-A survey of modern data engineering with hands-on examples. Explores **Apache Kafka, Spark, and Flink** for distributed data processing, streaming, and real-time analytics.
 
 ---
 
