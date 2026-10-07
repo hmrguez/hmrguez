@@ -10,6 +10,12 @@ A Software Engineer wanting to build things people find amazing. I'm passionate 
 
 ## My Top Projects
 
+### [underworld-lettering](https://github.com/hmrguez/underworld-lettering)
+
+<img src="https://skillicons.dev/icons?i=ts,svelte,vite,bun" alt="icons" />
+
+An experimental typography playground inspired by the hero wordmarks in Valve’s Deadlock. Built with Svelte and a custom vector layout engine, with eleven lettering styles, contextual flourishes, per-letter controls, instant previews, and standalone SVG export.
+
 ### [FinNet](https://github.com/hmrguez/FinNet)
 
 <img src="https://skillicons.dev/icons?i=py" alt="icons" />
