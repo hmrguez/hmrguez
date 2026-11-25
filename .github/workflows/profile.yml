@@ -34,7 +34,7 @@ jobs:
           name: profile
           path: |
             README.md
-            assets/*.png
+            assets/
           retention-days: 3
           if-no-files-found: error
 

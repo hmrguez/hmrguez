@@ -77,5 +77,5 @@ export function readme(components) {
     return [id, `<picture>${source}<img width="${width}" src="assets/${id}.png" alt="${escapeHtml(alt)}"></picture>`];
   }));
   return [pictures.masthead, pictures.contributions, pictures.languages+' '+pictures.weekday,
-    `<a href="https://github.com/${owner}?tab=repositories">${pictures.projects}</a>`].join('\n\n')+'\n';
+    `<a href="https://github.com/${owner}?tab=repositories">${pictures.projects}</a>`].join('<br>\n')+'\n';
 }
