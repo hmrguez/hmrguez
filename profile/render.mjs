@@ -1,3 +1,4 @@
+import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { chromium } from 'playwright-core';
 import { mkdtemp, mkdir, readFile, rename, rm, writeFile } from 'node:fs/promises';
@@ -47,7 +48,7 @@ export async function renderProfile(data, destination = root) {
         const html = card.gutter && !mobile
           ? `<div style="width:max-content;padding-${card.gutter}:3px">${article}</div>`
           : article;
-        const name = card.id+(mobile?'-mobile':'')+'.png';
+        const name = card.id+(mobile?'-mobile':'')+'.webp';
         const hash = shared.copy().update(html);
         for (const [,file] of html.matchAll(/src="(art\/[\w.-]+)"/g)) {
           hash.update(await readFile(path.join(here,file)));
@@ -68,7 +69,9 @@ export async function renderProfile(data, destination = root) {
           document.body.getBoundingClientRect();
           await document.fonts.ready;
         },html);
-        await page.locator('body > :only-child').screenshot({path:path.join(stage,name),omitBackground:Boolean(card.gutter && !mobile)});
+        const png = path.join(stage, 'card.png');
+        await page.locator('body > :only-child').screenshot({path:png,omitBackground:Boolean(card.gutter && !mobile)});
+        execFileSync('cwebp', ['-quiet','-m','6','-q','86','-sharp_yuv',png,'-o',path.join(stage,name)]);
         files.push(name);
       }
     }

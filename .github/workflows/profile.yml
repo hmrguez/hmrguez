@@ -26,6 +26,8 @@ jobs:
         with:
           node-version: '22'
       - run: npm ci --ignore-scripts --no-audit
+      - name: Ensure WebP encoder is available
+        run: command -v cwebp || brew install webp
       - run: npm run refresh
         env:
           GH_TOKEN: ${{ github.token }}

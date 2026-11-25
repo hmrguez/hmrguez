@@ -51,6 +51,10 @@ h2 {
   color:#4a2930;
 }
 .mast {
+  display:grid;
+  place-content:center;
+  justify-items:center;
+  text-align:center;
   height:204px;
   background:#e9dfc6;
   padding:28px 36px;
@@ -59,20 +63,11 @@ h2 {
 .mast:after {
   background-position:5px 5px;
 }
-.mast .owl {
-  position:absolute;
-  height:180px;
-  width:294px;
-  object-fit:contain;
-  right:25px;
-  bottom:14px;
-}
 .name {
   width:435px;
   max-height:95px;
   object-fit:contain;
-  object-position:left center;
-  margin-top:12px;
+  object-position:center;
 }
 .id {
   margin-top:18px;
@@ -275,17 +270,7 @@ h2 {
   background-position:3px 3px;
 }
 .mast.mob .name {
-  width:221px;
-  margin:6px 0 0;
-}
-.mast.mob .owl {
-  height:115px;
-  width:131px;
-  right:6px;
-  bottom:8px;
-  object-fit:cover;
-  object-position:69%;
-  mask-image:linear-gradient(to right,transparent,#000 17%);
+  width:250px;
 }
 .mast.mob .id {
   display:grid;
@@ -348,35 +333,29 @@ h2 {
 .contact {
   width:264px;
   height:55px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  gap:13px;
-  color:#65373c;
+  display:grid;
+  place-items:center;
   background:#e9dfc6;
-  font:italic 23px/1 Baskerville,Georgia,serif;
+}
+.contact:after {
+  content:none;
 }
 .contact-email {
   width:272px;
   border-inline:0;
 }
-.contact svg {
-  width:14px;
-  height:14px;
-  fill:none;
-  stroke:currentColor;
-  stroke-width:1.4;
+.contact-mark {
+  width:23px;
+  height:23px;
 }
 .contact.mob {
   width:121px;
   height:45px;
-  font-size:19px;
-  gap:8px;
 }
 .contact-email.mob {
   width:125px;
 }
-.contact.mob svg {
-  width:11px;
-  height:11px;
+.contact.mob .contact-mark {
+  width:19px;
+  height:19px;
 }

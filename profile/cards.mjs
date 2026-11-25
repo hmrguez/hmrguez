@@ -4,9 +4,9 @@ const calendarInk = ['#dad0b9','#c4a18f','#a56e63','#85474a','#562b36'];
 const languageInk = ['#5f313c','#a26149','#606c55','#948153','#697f83','#b7a990'];
 const weekdays = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
 const socialLinks = [
-  { id:'linkedin', label:'LinkedIn', alt:'Hector Rodriguez on LinkedIn', href:'https://www.linkedin.com/in/hmrguez', width:'33%' },
-  { id:'email', label:'Email', alt:'Email Hector Rodriguez at zealot.algo@gmail.com', href:'mailto:zealot.algo@gmail.com', width:'34%' },
-  { id:'x', label:'X', alt:'MachineZealot on X', href:'https://x.com/MachineZealot', width:'33%' },
+  { id:'linkedin', alt:'Hector Rodriguez on LinkedIn', href:'https://www.linkedin.com/in/hmrguez', width:'33%' },
+  { id:'email', alt:'Email Hector Rodriguez at zealot.algo@gmail.com', href:'mailto:zealot.algo@gmail.com', width:'34%' },
+  { id:'x', alt:'MachineZealot on X', href:'https://x.com/MachineZealot', width:'33%' },
 ];
 const formatDate = new Intl.DateTimeFormat('en-GB', { day:'numeric', month:'short', year:'numeric', timeZone:'UTC' });
 const formatMonth = new Intl.DateTimeFormat('en-US', { month:'short', timeZone:'UTC' });
@@ -59,7 +59,7 @@ export function cards(data) {
   return [
     { id:'masthead', className:'mast', width:'100%', mobile:true,
       alt:`Hector Rodriguez · ${role} · @${owner}`,
-      html:() => `<img class="owl" src="art/owl.png"><img class="name" src="art/name.svg" alt="Hector Rodriguez">
+      html:() => `<img class="name" src="art/name.svg" alt="Hector Rodriguez">
         <div class="id"><em>${role}</em><span class="label">@${owner}</span></div>` },
     { id:'contributions', className:'heat', width:'100%', mobile:true, html:heat,
       alt:`${count} GitHub contributions, ${range}. ${active} active days. Longest streak ${longest} days.` },
@@ -73,24 +73,21 @@ export function cards(data) {
     { id:'projects', className:'projects', width:'100%', mobile:true,
       alt:'Projects: '+projects.map(p=>p.name+' ('+owner+'/'+p.path+')').join(', ')+'. Open repository list.',
       html:() => `<div class="proj-title"><img src="art/projects.svg" alt="Projects"></div><div class="rows">${rows}</div>` },
-    ...socialLinks.map(({id,label,alt,width}) => ({
+    ...socialLinks.map(({id,alt,width}) => ({
       id, alt, width, mobile:true, className:'contact contact-'+id,
-      html:() => `<span>${label}</span><svg viewBox="0 0 16 16" aria-hidden="true">${id === 'email'
-        ? '<path d="M1.5 3.5h13v9h-13z M2 4l6 4.5L14 4"/>'
-        : '<path d="M3 13 13 3 M5 3h8v8"/>'}</svg>`,
+      html:() => `<img class="contact-mark" src="art/${id}.svg" alt="">`,
     })),
   ];
 }
 
 export function readme(components) {
   const pictures = Object.fromEntries(components.map(({id,width,mobile,mobileWidth,alt}) => {
-    const source = mobile ? `<source media="(max-width: 767px)" width="${mobileWidth ?? width}" srcset="assets/${id}-mobile.png">` : '';
-    return [id, `<picture>${source}<img width="${width}" src="assets/${id}.png" alt="${escapeHtml(alt)}"></picture>`];
+    const source = mobile ? `<source media="(max-width: 767px)" width="${mobileWidth ?? width}" srcset="assets/${id}-mobile.webp">` : '';
+    return [id, `<picture>${source}<img width="${width}" src="assets/${id}.webp" alt="${escapeHtml(alt)}"></picture>`];
   }));
   const socials = socialLinks.map(({id,href}) => `<a href="${href}">${pictures[id]}</a>`).join('');
   // Adjacent inline images share a full line without a whitespace glyph between them.
-  const rows = [pictures.masthead, pictures.contributions, pictures.languages+pictures.weekday,
-    `<a href="https://github.com/${owner}?tab=repositories">${pictures.projects}</a>`,
-    socials];
+  const rows = [pictures.masthead, socials, pictures.contributions, pictures.languages+pictures.weekday,
+    `<a href="https://github.com/${owner}?tab=repositories">${pictures.projects}</a>`];
   return `<p>\n${rows.join('<br>\n')}\n</p>\n`;
 }
