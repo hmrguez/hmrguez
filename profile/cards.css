@@ -53,22 +53,19 @@ h2 {
 .mast {
   height:204px;
   background:#e9dfc6;
-  padding:23px 31px;
-  border:5px solid #473532;
+  padding:28px 36px;
+  border:0;
 }
-.mast:before {
-  content:'';
-  position:absolute;
-  inset:7px;
-  border:1px solid #938168;
+.mast:after {
+  background-position:5px 5px;
 }
 .mast .owl {
   position:absolute;
   height:180px;
   width:294px;
   object-fit:contain;
-  right:20px;
-  bottom:9px;
+  right:25px;
+  bottom:14px;
 }
 .name {
   width:435px;
@@ -272,8 +269,10 @@ h2 {
 }
 .mast.mob {
   height:140px;
-  padding:21px 13px;
-  border-width:3px;
+  padding:24px 16px;
+}
+.mast.mob:after {
+  background-position:3px 3px;
 }
 .mast.mob .name {
   width:221px;
@@ -282,8 +281,8 @@ h2 {
 .mast.mob .owl {
   height:115px;
   width:131px;
-  right:3px;
-  bottom:5px;
+  right:6px;
+  bottom:8px;
   object-fit:cover;
   object-position:69%;
   mask-image:linear-gradient(to right,transparent,#000 17%);
