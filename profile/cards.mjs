@@ -82,8 +82,8 @@ export function cards(data) {
 
 export function readme(components) {
   const pictures = Object.fromEntries(components.map(({id,width,mobile,mobileWidth,alt}) => {
-    const source = mobile ? `<source media="(max-width: 767px)" width="${mobileWidth ?? width}" srcset="assets/${id}-mobile.webp">` : '';
-    return [id, `<picture>${source}<img width="${width}" src="assets/${id}.webp" alt="${escapeHtml(alt)}"></picture>`];
+    const source = mobile ? `<source media="(max-width: 767px)" width="${mobileWidth ?? width}" srcset="assets/${id}-mobile.svg">` : '';
+    return [id, `<picture>${source}<img width="${width}" src="assets/${id}.svg" alt="${escapeHtml(alt)}"></picture>`];
   }));
   const socials = socialLinks.map(({id,href}) => `<a href="${href}">${pictures[id]}</a>`).join('');
   // Adjacent inline images share a full line without a whitespace glyph between them.
