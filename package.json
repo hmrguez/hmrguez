@@ -1,0 +1,11 @@
+{
+  "name": "hmrguez-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "refresh": "node profile/render.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "1.62.1"
+  }
+}

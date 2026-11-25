@@ -1,0 +1,62 @@
+name: Refresh profile
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - profile/**
+      - package*.json
+      - .github/workflows/profile.yml
+permissions:
+  contents: read
+concurrency:
+  group: profile-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: macos-15
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci --ignore-scripts --no-audit
+      - run: npm run refresh
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: profile
+          path: |
+            README.md
+            assets/
+          retention-days: 3
+          if-no-files-found: error
+
+  publish:
+    needs: render
+    if: github.ref_name == github.event.repository.default_branch && github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: profile
+      - name: Commit refreshed images and accessible descriptions together
+        env:
+          BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git add -- README.md assets/
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh profile activity'
+          git push origin "HEAD:refs/heads/$BRANCH"
