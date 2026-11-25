@@ -1,10 +1,18 @@
 {
-  "masthead.png": "8edc33f24dbce41511c961c214ce611330b17bfcd96c14ef8b5ef55eae85262c",
-  "masthead-mobile.png": "4c332a03ec384b349a96f69c31b6b2da0d73375973cd9cc64370ad053379dd28",
-  "contributions.png": "60047801042cf90e9d070202ccbe2a172cad554b40948677053bf85ca0f0ec45",
-  "contributions-mobile.png": "d6c729d7bc1875cb81fe3b1dbb0e3038a8ccf07fad7a7a1cd0768b5a6fca1d10",
-  "languages.png": "de610f14952d814ace78d4ae419a9a25ca1d3f68b1f72f2c160c5bea159954d4",
-  "weekday.png": "15a8f037fb9e5cef9061dd05626c0b10cdc35ff24e7f3aeef8d2f560a1146d55",
-  "projects.png": "4899e8a1a263aaadd9ba82c9b23895994825ff509591e9e9f0d4a5ec39021fd5",
-  "projects-mobile.png": "7022527a97ae7f2d268ea55bfff1f7df7d0288cbbb3f228480f87d781b82a375"
+  "masthead.png": "fa1d275602a3c197225884ca68f9bf6a42e18cedc3377a0015d163778f783bcc",
+  "masthead-mobile.png": "81367d7021907ab8a221ce34bdcb45f8a0be5ed6f9f8e00d211eeeff02b5a4eb",
+  "contributions.png": "bd8b21dd5051ccb6378009d4889fec9528808aef3c871e3d78da62ad2064f9d6",
+  "contributions-mobile.png": "68284081472980425ef0073b4c1046d7691730719a783d0bf96c8ef14c968699",
+  "languages.png": "00b66a118c11baa77423d6f6dac3ca35d72ecb2321d5464231e0b47e65bf5d84",
+  "languages-mobile.png": "baf28e731b37da8071f33b1e019b012f76b430ccbecb7b411f05fc1028a47510",
+  "weekday.png": "d533ee2f81ec123bfb6a85bd9b85b85b4bb6f3762c7fcad06534c7af339d4270",
+  "weekday-mobile.png": "a127ef48a6a8a34927bd67177d37b41f03be3661ec04614ff1eac0a0d5857d81",
+  "projects.png": "55177b0c4c750f035ec51f60e989f6a32876e60a94b5a6c40f8db639bed6b159",
+  "projects-mobile.png": "8e542a2549c121ddcf3b7e99df9614dd9cdbc28a8b82f98aafe17f5887a7606b",
+  "linkedin.png": "e770db68ba43d9f2c881c43f119a686395386c50d5240113116b65ba6816bc85",
+  "linkedin-mobile.png": "4c814d325eafbadd96b9a67ede31146a334f920bbf0fa18b2c763306863e20cb",
+  "email.png": "944ae03087ae5b1182ef28dd2a0b7bc3ef78ad1624cb7bcef884775b5764e486",
+  "email-mobile.png": "d1bd857043af2389886534104749bc230736dcf034d70d4865662d61476e9665",
+  "x.png": "58bf622955553d5df77ef60f02acff05c917452ec1823d2e1ea9e7606d6c1a8b",
+  "x-mobile.png": "11dbed4359a364aadfcea96e9be97739cb8318f7705dfae6306b2a1fcc7eed49"
 }

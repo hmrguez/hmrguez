@@ -344,3 +344,39 @@ h2 {
 .projects.mob .row code {
   font-size:10px;
 }
+
+.contact {
+  width:264px;
+  height:55px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:13px;
+  color:#65373c;
+  background:#e9dfc6;
+  font:italic 23px/1 Baskerville,Georgia,serif;
+}
+.contact-email {
+  width:272px;
+  border-inline:0;
+}
+.contact svg {
+  width:14px;
+  height:14px;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.4;
+}
+.contact.mob {
+  width:121px;
+  height:45px;
+  font-size:19px;
+  gap:8px;
+}
+.contact-email.mob {
+  width:125px;
+}
+.contact.mob svg {
+  width:11px;
+  height:11px;
+}

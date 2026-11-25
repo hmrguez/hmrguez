@@ -3,6 +3,11 @@ import { offset, owner, projects, role } from './data.mjs';
 const calendarInk = ['#dad0b9','#c4a18f','#a56e63','#85474a','#562b36'];
 const languageInk = ['#5f313c','#a26149','#606c55','#948153','#697f83','#b7a990'];
 const weekdays = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+const socialLinks = [
+  { id:'linkedin', label:'LinkedIn', alt:'Hector Rodriguez on LinkedIn', href:'https://www.linkedin.com/in/hmrguez', width:'33%' },
+  { id:'email', label:'Email', alt:'Email Hector Rodriguez at zealot.algo@gmail.com', href:'mailto:zealot.algo@gmail.com', width:'34%' },
+  { id:'x', label:'X', alt:'MachineZealot on X', href:'https://x.com/MachineZealot', width:'33%' },
+];
 const formatDate = new Intl.DateTimeFormat('en-GB', { day:'numeric', month:'short', year:'numeric', timeZone:'UTC' });
 const formatMonth = new Intl.DateTimeFormat('en-US', { month:'short', timeZone:'UTC' });
 
@@ -52,30 +57,40 @@ export function cards(data) {
     <span class="day">${weekdays[i].slice(0,3)}</span></div>`).join('');
   const rows = projects.map(({name,path}) => `<div class="row"><strong>${name}</strong><code>${owner}/${path}</code></div>`).join('');
   return [
-    { id:'masthead', className:'mast', width:800, mobile:true,
+    { id:'masthead', className:'mast', width:'100%', mobile:true,
       alt:`Hector Rodriguez · ${role} · @${owner}`,
       html:() => `<img class="owl" src="art/owl.png"><img class="name" src="art/name.svg" alt="Hector Rodriguez">
         <div class="id"><em>${role}</em><span class="label">@${owner}</span></div>` },
-    { id:'contributions', className:'heat', width:800, mobile:true, html:heat,
+    { id:'contributions', className:'heat', width:'100%', mobile:true, html:heat,
       alt:`${count} GitHub contributions, ${range}. ${active} active days. Longest streak ${longest} days.` },
-    { id:'languages', className:'half', width:397,
+    { id:'languages', className:'half', width:'50%', mobile:true, mobileWidth:'100%', gutter:'right',
       alt:'Share of code bytes across the five projects: '+languages.map(l=>`${l.name} ${l.percent}%`).join(', ')+'.',
       html:() => `<h2>Languages</h2><p class="scope">Code bytes across the five projects</p>
         <div class="swatches">${bars}</div><div class="key">${key || 'No language data'}</div>` },
-    { id:'weekday', className:'half rhythm', width:397,
+    { id:'weekday', className:'half rhythm', width:'50%', mobile:true, mobileWidth:'100%', gutter:'left',
       alt:'Contributions by weekday: '+weekdays.map((d,i)=>d+' '+data.weekdays[i]).join(', ')+'.',
       html:() => `<h2>Contributions by weekday</h2><div class="hist">${columns}</div>` },
-    { id:'projects', className:'projects', width:800, mobile:true,
+    { id:'projects', className:'projects', width:'100%', mobile:true,
       alt:'Projects: '+projects.map(p=>p.name+' ('+owner+'/'+p.path+')').join(', ')+'. Open repository list.',
       html:() => `<div class="proj-title"><img src="art/projects.svg" alt="Projects"></div><div class="rows">${rows}</div>` },
+    ...socialLinks.map(({id,label,alt,width}) => ({
+      id, alt, width, mobile:true, className:'contact contact-'+id,
+      html:() => `<span>${label}</span><svg viewBox="0 0 16 16" aria-hidden="true">${id === 'email'
+        ? '<path d="M1.5 3.5h13v9h-13z M2 4l6 4.5L14 4"/>'
+        : '<path d="M3 13 13 3 M5 3h8v8"/>'}</svg>`,
+    })),
   ];
 }
 
 export function readme(components) {
-  const pictures = Object.fromEntries(components.map(({id,width,mobile,alt}) => {
-    const source = mobile ? `<source media="(max-width: 600px)" srcset="assets/${id}-mobile.png">` : '';
+  const pictures = Object.fromEntries(components.map(({id,width,mobile,mobileWidth,alt}) => {
+    const source = mobile ? `<source media="(max-width: 767px)" width="${mobileWidth ?? width}" srcset="assets/${id}-mobile.png">` : '';
     return [id, `<picture>${source}<img width="${width}" src="assets/${id}.png" alt="${escapeHtml(alt)}"></picture>`];
   }));
-  return [pictures.masthead, pictures.contributions, pictures.languages+' '+pictures.weekday,
-    `<a href="https://github.com/${owner}?tab=repositories">${pictures.projects}</a>`].join('<br>\n')+'\n';
+  const socials = socialLinks.map(({id,href}) => `<a href="${href}">${pictures[id]}</a>`).join('');
+  // Adjacent inline images share a full line without a whitespace glyph between them.
+  const rows = [pictures.masthead, pictures.contributions, pictures.languages+pictures.weekday,
+    `<a href="https://github.com/${owner}?tab=repositories">${pictures.projects}</a>`,
+    socials];
+  return `<p>\n${rows.join('<br>\n')}\n</p>\n`;
 }

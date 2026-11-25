@@ -43,7 +43,10 @@ export async function renderProfile(data, destination = root) {
     await page.goto('https://cabinet.invalid/');
     for (const card of components) {
       for (const mobile of card.mobile ? [false,true] : [false]) {
-        const html = `<article class="paper ${card.className}${mobile?' mob':''}">${card.html(mobile)}</article>`;
+        const article = `<article class="paper ${card.className}${mobile?' mob':''}">${card.html(mobile)}</article>`;
+        const html = card.gutter && !mobile
+          ? `<div style="width:max-content;padding-${card.gutter}:3px">${article}</div>`
+          : article;
         const name = card.id+(mobile?'-mobile':'')+'.png';
         const hash = shared.copy().update(html);
         for (const [,file] of html.matchAll(/src="(art\/[\w.-]+)"/g)) {
@@ -65,7 +68,7 @@ export async function renderProfile(data, destination = root) {
           document.body.getBoundingClientRect();
           await document.fonts.ready;
         },html);
-        await page.locator('article').screenshot({path:path.join(stage,name)});
+        await page.locator('body > :only-child').screenshot({path:path.join(stage,name),omitBackground:Boolean(card.gutter && !mobile)});
         files.push(name);
       }
     }
